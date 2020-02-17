@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jaime <jaime.cruz.hostalot@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:JaimeCrz/J.Code.git"
 }
