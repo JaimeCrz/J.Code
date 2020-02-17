@@ -8,5 +8,9 @@
   },
   "author": "Jaime <jaime.cruz.hostalot@gmail.com>",
   "license": "ISC",
-  "repository": "git@github.com:JaimeCrz/J.Code.git"
+  "repository": "git@github.com:JaimeCrz/J.Code.git",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
