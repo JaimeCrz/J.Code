@@ -1,20 +1,18 @@
 import React from 'react'
- 
 
-
-const Contact = () => {
+const Skills = () => {
     return (
         <div className="ui main container">
           <div class="ui stackable two column grid">
 
-            <div class="column">           
-                        
+            <div class="column">
+
             </div>
 
             <div class="column">
-              <h1 class="ui white inverted header">Contact me</h1>
+            <h1 class="ui white inverted header">Skills</h1>
               <p>
-              Comimng contact me form
+              Skills
               </p>
             </div>
 
@@ -23,4 +21,4 @@ const Contact = () => {
       );
 };
 
-export default Contact;
+export default Skills;

@@ -38,7 +38,7 @@ class Projects extends Component {
             <UndrawDashboard />
           </div>
           <div className="column">
-            <h1 className="ui header">My Projects</h1>
+            <h1 class="ui white inverted header">My projects</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
               ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad

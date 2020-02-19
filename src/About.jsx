@@ -10,7 +10,7 @@ const About = () => {
               <UndrawDesignerLife primaryColor='#12283a' />
             </div>
             <div class="column">
-              <h1 className="ui header">About Me</h1>
+              <h1 class="ui white inverted header">About</h1>
               <p>
                 Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
                 corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
