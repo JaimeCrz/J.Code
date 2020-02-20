@@ -13,13 +13,19 @@ footer {
 
 
 h1 {
-  color: rgb(153, 153, 152);
+  text-align: center;
+}
+
+
+
+p {
+  text-align: center;
 }
 
 
 body {
     color: antiquewhite;
-    background-color: rgb(32, 32, 32);
+    background: #1d1d1d;
     text: darkgrey;
 }
 
