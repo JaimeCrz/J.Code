@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 import Skills from "./Skills";
 
+
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
@@ -19,7 +20,7 @@ const App = () => {
     <>
 
      <Particles
-        style={{ position: "absolute", zIndex: "1" }}
+        style={{ position: "absolute" }}
         params={particlesOptions}
       />
       <div>

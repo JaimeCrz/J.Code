@@ -21,6 +21,13 @@ p {
   font-size: large;
 }
 
+
+img {
+  height: 90px;
+  width: 90px;
+}
+
+
 body {
 
   color: antiquewhite;

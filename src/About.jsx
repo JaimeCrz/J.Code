@@ -1,5 +1,6 @@
 import React from "react";
-import { UndrawDesignerLife } from "react-undraw-illustrations";
+
+
 import { GridColumn } from "semantic-ui-react";
 
 
@@ -9,7 +10,7 @@ const About = () => {
 
 
       <div className="ui center aligned grid">
-       <div className="six wide column">       
+       <div className="five wide column">       
         <div className="row">
           <div className="column">
 
@@ -33,8 +34,12 @@ const About = () => {
           </div>
 
           <div className="column">
-            <h1 className="ui white inverted header">Image test here</h1>
-                         
+            <h1 className="ui white inverted header"> Follow me:</h1>
+            <div className= "logos_images">
+              <a href="https://github.com/JaimeCrz"><img src="./src/images/gitLogo.png"></img></a>
+              <img src="src/images/tLogo.png" ></img>
+            </div>
+
           </div>
         </div>          
        </div>
