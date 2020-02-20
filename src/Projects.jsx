@@ -33,17 +33,9 @@ class Projects extends Component {
 
     return (
       <div className="ui main container">
-        <div className="ui stackable two column grid">
+        <div className="ui stackable two column grid">          
           <div className="column">
-            <UndrawDashboard />
-          </div>
-          <div className="column">
-            <h1 className="ui white inverted header">My projects</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
-              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
-              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
-            </p>
+            <h1 className="ui white inverted header">Projects</h1>
           </div>
         </div>
         <div className="ui stackable four column grid">{projectsList}</div>
