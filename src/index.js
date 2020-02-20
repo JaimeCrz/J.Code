@@ -11,12 +11,18 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
 
-
-
+import Particles from "react-particles-js";
+import { particlesOptions } from "./data/particles";
 
 const App = () => {
   return (
     <>
+
+     <Particles
+        style={{ position: "absolute", zIndex: "1" }}
+        params={particlesOptions}
+      />
+      <div>
       <Header />
       <Switch>
         <Route exact path="/" component={Hello}></Route>
@@ -26,6 +32,7 @@ const App = () => {
         <Route exact path="/skills" component={Skills}></Route>
       </Switch>
       <Footer />
+      </div>
     </>
   );
 };

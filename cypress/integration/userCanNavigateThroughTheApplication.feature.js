@@ -24,6 +24,21 @@ describe('User can navigate the app', () => {
         cy.get('#hello').should('not.exist');
       });
     });
+
+    describe('to Skills tab and it', () => {
+      beforeEach(() => {
+        cy.get('#skill-tab').click();
+      });
+  
+      it('displays Skills Me header', () => {
+        cy.get('#skills-header').should('contain', 'Skills');
+      });
+  
+      it('displays component name in url', () => {
+        cy.url().should("contain", "skills");
+      })
+      });
+    });
   
     describe('to My Projects tab and it',() => {
       beforeEach(() => {
@@ -31,7 +46,7 @@ describe('User can navigate the app', () => {
       });
   
       it('displays My Projects header', () => {
-        cy.get('#projects-header').should('contain', 'My Projects');
+        cy.get('#projects-header').should('contain', 'Projects');
       });
   
       it('displays component name in url', () => {
@@ -47,7 +62,7 @@ describe('User can navigate the app', () => {
       });
     });
   
-    describe('back to My Portfolio/Hello tab and it',() => {
+    describe('back to J.Cruz/Hello tab and it',() => {
       beforeEach(() => {
         cy.get('#about-tab').click();
         cy.get('#header').click();
@@ -70,5 +85,4 @@ describe('User can navigate the app', () => {
       it('does not display My Projects header', () => {
         cy.get('#projects-header').should('not.exist');
       });
-    });
   });

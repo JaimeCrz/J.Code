@@ -12,6 +12,7 @@ const About = () => {
        <div className="six wide column">       
         <div className="row">
           <div className="column">
+
           <h1 className="ui white inverted header">About me</h1>
                 <p>
                 My name is Jaime Cruz, a newcomer to the realm of coding and web development, 
