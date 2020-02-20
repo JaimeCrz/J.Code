@@ -18,21 +18,20 @@ import { particlesOptions } from "./data/particles";
 const App = () => {
   return (
     <>
-
-     <Particles
+      <Particles
         style={{ position: "absolute" }}
         params={particlesOptions}
       />
       <div>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Hello}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/projects" component={Projects}></Route>
-        <Route exact path="/skills" component={Skills}></Route>
-      </Switch>
-      <Footer />
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Hello}></Route>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
+          <Route exact path="/skills" component={Skills}></Route>
+        </Switch>
+        <Footer />
       </div>
     </>
   );
