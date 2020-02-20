@@ -27,8 +27,11 @@ const Contact = () => {
 
             
             <div className="column">
+            <h1> Contact me</h1>
 
-            <p> Map will be here.</p>
+            <p>  I'm interested in freelance opportunities, especially for ambitious large projects. 
+            However, if you have other requests or questions, 
+            don't hesitate to contact me using the form.</p>
 
             </div>
           </div>

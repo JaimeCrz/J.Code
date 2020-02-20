@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
           <div className="ui container">
-            <p id="footer">Made by Jaime</p>
+            <p id="footer">Made by Jaime on React</p>
           </div>
         </footer>
       );

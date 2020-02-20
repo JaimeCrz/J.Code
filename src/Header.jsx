@@ -8,9 +8,10 @@ const Header = () => {
   return (
     <nav className="ui fixed inverted menu">
       <div className="ui container">
-        <Link id="header" className="header item" to="/">
+        <Link id="header" className="header item" to="/"
+        activeStyle={{fontWeight:"bold"}}>
 
-          My Portfolio
+        J. Cruz
 
         </Link>
         <div className="right menu">
