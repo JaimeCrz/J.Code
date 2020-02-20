@@ -9,7 +9,6 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className="content">
           <h3 className="ui header">{project.name}</h3>
-
           <div className="description">{project.description}</div>
         </div>
       </div>

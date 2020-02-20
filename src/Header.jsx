@@ -9,10 +9,10 @@ const Header = () => {
     <nav className="ui fixed inverted menu">
       <div className="ui container">
         <Link id="header" className="header item" to="/"
-        activeStyle={{fontWeight:"bold"}}>
+          activeStyle={{ fontWeight: "bold" }}>
 
-        J. Cruz
-
+          J. Cruz
+  
         </Link>
         <div className="right menu">
           <NavLink
@@ -41,7 +41,7 @@ const Header = () => {
           >
             Projects
           </NavLink>
-          
+
           <NavLink
             id="contact-tab"
             className="ui item"
