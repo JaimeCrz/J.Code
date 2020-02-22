@@ -9,7 +9,7 @@ describe('User can navigate the app', () => {
     });
 
     it('displays About Me header', () => {
-      cy.get('#about-header').should('contain', 'About Me');
+      cy.contains('About me');
     });
 
     it('displays component name in url', () => {
@@ -27,11 +27,11 @@ describe('User can navigate the app', () => {
 
   describe('to CV tab and it', () => {
     beforeEach(() => {
-      cy.get('#CV-tab').click();
+      cy.get('#cv-tab').click();
     });
 
     it('displays CV header', () => {
-      cy.get('#CV-header').should('contain', 'CV');
+      cy.contains('Curriculum Vitae');
     });
 
     it('displays CV component name in url', () => {
@@ -39,32 +39,28 @@ describe('User can navigate the app', () => {
     })
   });
 
-
-
-describe('to Skills tab and it', () => {
-  beforeEach(() => {
-    cy.get('#skill-tab').click();
-  });
-
-  it('displays Skills Me header', () => {
-    cy.get('#skills-header').should('contain', 'Skills');
-  });
-
-  it('displays component name in url', () => {
-    cy.url().should("contain", "skills");
-  })
-});
+  describe('to skills tab and it', () => {
+    beforeEach(() => {
+      cy.get('#skills-tab').click();
     });
 
+    it('displays Skills header', () => {
+      cy.contains('Skills');
+    });
 
+    it('displays CV component name in url', () => {
+      cy.url().should("contain", "skills");
+    })
+  });
+});
 
-describe('to My Projects tab and it', () => {
+describe('to Projects tab and it', () => {
   beforeEach(() => {
     cy.get('#projects-tab').click();
   });
 
   it('displays My Projects header', () => {
-    cy.get('#projects-header').should('contain', 'Projects');
+    cy.contains('Projects');
   });
 
   it('displays component name in url', () => {
@@ -84,10 +80,6 @@ describe('back to J.Cruz/Hello tab and it', () => {
   beforeEach(() => {
     cy.get('#about-tab').click();
     cy.get('#header').click();
-  });
-
-  it('displays Hello World', () => {
-    cy.get('#hello').should('contain', 'Hello');
   });
 
   it('displays correct url', () => {

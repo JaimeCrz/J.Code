@@ -25,7 +25,7 @@ const Header = () => {
           </NavLink>
 
           <NavLink
-            id="contact-tab"
+            id="skills-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/skills"
