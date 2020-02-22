@@ -1,20 +1,19 @@
-// import React from "react";
+import React from "react";
 
-// const ProjectCard = ({ project }) => {
-//   return (
-//     <>
-//       <div className="ui card">
-//         <div className="image">
-//           <img src={project.image} />
-//         </div>
-//         <div className="content">
-//           <h3 className="ui header">{project.name}</h3>
-//           <div className="description">{project.description}</div>
-//           <div className="link"><a href={project.link}>Check it out here.</a></div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
+const CvCards = ({ curriculum }) => {
+  return (
+    <>
+      <div className="ui card">
+        <div className="image">
+          <img src={curriculum.image} />
+        </div>
+        <div className="content">
+          <h3 className="ui header">{curriculum.name}</h3>
+          <div className="description">{curriculum.description}</div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-// export default ProjectCard;
+export default CvCards;

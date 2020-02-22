@@ -1,46 +1,46 @@
-// import axios from "axios";
-// import React, { Component } from "react";
-// import ProjectCard from "./ProjectCard";
+import axios from "axios";
+import React, { Component } from "react";
+import CvCards from "./CvCards";
 
-// class Projects extends Component {
-//   state = {
-//     projects: []
-//   };
+class Curriculums extends Component {
+  state = {
+    curriculums: []
+  };
 
-//   componentDidMount() {
-//     axios.get('./src/data/projects.json')
-//       .then(response => {
-//         this.setState({
-//           projects: response.data
-//         })
-//       })
-//   }
+  componentDidMount() {
+    axios.get('./src/data/curriculums.json')
+      .then(response => {
+        this.setState({
+          curriculums: response.data
+        })
+      })
+  }
 
-//   render() {
-//     const projects = this.state.projects;
-//     let projectsList;
+  render() {
+    const curriculums = this.state.curriculums;
+    let curriculumsList;
 
-//     if (projects.length > 0) {
-//       projectsList = projects.map(project => {
-//         return (
-//           <div id={'project-' + project.id} key={project.id}>
-//             <ProjectCard project={project} />
-//           </div>
-//         );
-//       });
-//     }
+    if (curriculums.length > 0) {
+      curriculumsList = curriculums.map(curriculum => {
+        return (
+          <div id={'curriculum-' + curriculum.id} key={curriculum.id}>
+            <CvCards curriculum={curriculum} />
+          </div>
+        );
+      });
+    }
 
-//     return (
-//       <div className="ui main container">
-//         <div className="ui stackable two column grid">
-//           <div className="column">
-//             <h1 className="ui white inverted header">Projects</h1>
-//           </div>
-//         </div>
-//         <div className="ui stackable four column grid">{projectsList}</div>
-//       </div>
-//     );
-//   }
-// }
+    return (
+      <div className="ui main container">
+        <div className="ui stackable two column grid">
+          <div className="column">
+            <h1 className="ui white inverted header">Curriculum Vitae</h1>
+          </div>
+        </div>
+        <div className="ui stackable four column grid">{curriculumsList}</div>
+      </div>
+    );
+  }
+}
 
-// export default Projects;
+export default Curriculums;
