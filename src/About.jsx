@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="ui center aligned grid">
-      <div className="six wide column">
+      <div className="ten wide column">
         <div className="row">
           <div className="column">
             <h1 className="ui white inverted header">About me</h1>
