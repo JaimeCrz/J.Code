@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
-
+// Curriculum is positioned on a wrong side, it'll be deleted once  review.
 
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
     <nav className="ui fixed inverted menu">
       <div className="ui container">
         <Link id="header" className="header item" to="/"
-          activeStyle={{ fontWeight: "bold" }}>
+          activestyle={{ fontWeight: "bold" }}>
 
           J. Cruz
   
@@ -25,7 +25,7 @@ const Header = () => {
           </NavLink>
 
           <NavLink
-            id="contact-tab"
+            id="skills-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/skills"
@@ -46,9 +46,18 @@ const Header = () => {
             id="contact-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/Contact"
+            to="/contact"
           >
             Contact
+          </NavLink>
+
+          <NavLink
+            id="cv-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/cv"
+          >
+            Curriculum
           </NavLink>
         </div>
       </div>

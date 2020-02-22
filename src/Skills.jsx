@@ -18,7 +18,7 @@ const Skills = () => {
             <p>
               HTML,CSS, JS building small and creative webpages with React plus customs pluguins.
            </p>
-            <div class="dropping-texts">
+            <div className="dropping-texts">
               Worked with:
               <div> Ruby</div>
               <div> Ruby on Rails</div>
