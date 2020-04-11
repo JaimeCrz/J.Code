@@ -9,7 +9,6 @@ import Skills from "./Skills";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
-import Curriculums from "./Cv";
 
 import Particles from "react-particles-js";
 import { particlesOptions } from "./data/particles";
@@ -29,7 +28,6 @@ const App = () => {
           <Route exact path="/contact" component={Contact}></Route>
           <Route exact path="/projects" component={Projects}></Route>
           <Route exact path="/skills" component={Skills}></Route>
-          <Route exact path="/cv" component={Curriculums}></Route>
         </Switch>
         <Footer />
       </div>
