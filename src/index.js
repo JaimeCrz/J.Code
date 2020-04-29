@@ -1,17 +1,17 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "./Hello";
-import Header from "./Header";
-import Footer from "./Footer";
-import Contact from "./Contact";
-import Skills from "./Skills";
+import Hello from "./components/Hello";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import About from "./components/About";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
-import Projects from "./Projects";
-import About from "./About";
 
 import Particles from "react-particles-js";
-import { particlesOptions } from "./data/particles";
+import { particlesOptions } from "../dist/particles";
 
 const App = () => {
   return (

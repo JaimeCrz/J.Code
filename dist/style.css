@@ -9,6 +9,7 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+  z-index: 100;
 }
 
 h1 {
@@ -19,6 +20,32 @@ p {
   text-align: center;
   color: antiquewhite;
   font-size: large;
+}
+
+#t-cards {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(253, 253, 253);
+}
+
+#p-cards {
+  text-align: center;
+  color: rgb(253, 253, 253);
+  font-size: large;
+}
+
+#projectContainer,
+#projectList {
+  margin-bottom: 100px;
+  align-content: center;
+  text-align: center;
+}
+
+#body-cards {
+  border: 0px;
+  margin-top: 30px;
+  margin-left: 10px;
+  background-color: #141414; 
 }
 
 img {

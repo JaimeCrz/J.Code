@@ -19,5 +19,47 @@
     "image": "https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "description": "Updated a database and worked to modernize its content/code.",
     "link":"https://github.com/JaimeCrz/legacy_team4_2020"
+  },
+  {
+    "id": 4,
+    "name": "BMI Calculator",
+    "image": "https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "This app theme is as a BMI calculator were we got introduced to Jest with Enzyme for components testing.",
+    "link":"https://github.com/JaimeCrz/bmi_challenge_react"
+  },
+  {
+    "id": 5,
+    "name": "Cooper challenge",
+    "image": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "A cooper calculator that takes in consideration the meters you run in 12m, as well as your age making the proper calculations showing how good you performed.",
+    "link":"https://github.com/JaimeCrz/Front_cooper_challenge"
+  },
+  {
+    "id": 6,
+    "name": "Slowfood",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+    "description": "With a team of 4 we made a restaurant site capable of having a cart and be able to buy products.",
+    "link":"https://github.com/CraftAcademy/slowfood-client-team-4"
+  },
+  {
+    "id": 7,
+    "name": "VibeFM",
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "Made an app capable of fetching data from the Spotify api.",
+    "link":"https://github.com/CraftAcademy/vibe_fm_team_3_client"
+  },
+  {
+    "id": 8,
+    "name": "News Room Project",
+    "image": "https://images.unsplash.com/photo-1583932692977-7c74a6b7e7ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "This project was build with a team of 5 developers while simulating the welcoming and departure of old/new teammates. ",
+    "link":"https://github.com/JaimeCrz/newsroom_team2_news_app"
+  },
+  {
+    "id": 9,
+    "name": "Helping Hand",
+    "image": "https://images.unsplash.com/photo-1494438043283-22a3c46831a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "description": "In times of corona and hardship, My friends developers and I developed H.H thinking on giving a hand to those who need it most",
+    "link":"https://github.com/JaimeCrz/helping_hand_client"
   }
 ]
