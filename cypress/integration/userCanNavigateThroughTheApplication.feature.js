@@ -25,20 +25,6 @@ describe('User can navigate the app', () => {
     });
   });
 
-  describe('to CV tab and it', () => {
-    beforeEach(() => {
-      cy.get('#cv-tab').click();
-    });
-
-    it('displays CV header', () => {
-      cy.contains('Curriculum Vitae');
-    });
-
-    it('displays CV component name in url', () => {
-      cy.url().should("contain", "cv");
-    })
-  });
-
   describe('to skills tab and it', () => {
     beforeEach(() => {
       cy.get('#skills-tab').click();
@@ -47,10 +33,6 @@ describe('User can navigate the app', () => {
     it('displays Skills header', () => {
       cy.contains('Skills');
     });
-
-    it('displays CV component name in url', () => {
-      cy.url().should("contain", "skills");
-    })
   });
 });
 
