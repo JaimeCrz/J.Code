@@ -1,6 +1,6 @@
 # Welcome to my Github Portafolio!. 
 
-Please visit my live site **[here](https://jcruz.netlify.app/)
+Please visit my live site **[here](https://jcruz.netlify.app/)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7952e124-5941-4ddb-a0e8-93e894a9eb69/deploy-status)](https://app.netlify.com/sites/jcruz/deploys)
 
@@ -12,7 +12,7 @@ I have been enjoying the liberty and freedom that software development brings in
 
 I'm open to help and collaborate in an open-source project as you might have seen some of my projects are aimed towards making life easier for those having disadvantages.
 
-The project I'm most proud of it's Helping Hand! go and check it out at my portfolio! Our team formed part of the European (Corona Virus)[https://euvsvirus.org/] hackathon to help people that weren't available to perform a daily task, like shopping in the times of the Corona Pandemic.
+The project I'm most proud of it's Helping Hand! go and check it out at my portfolio! Our team formed part of the European [COVID-19](https://euvsvirus.org/) hackathon to help people that weren't available to perform a daily task, like shopping in the times of the Corona Pandemic.
 
 
 
