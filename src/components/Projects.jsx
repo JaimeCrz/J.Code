@@ -23,7 +23,7 @@ class Projects extends Component {
     if (projects.length > 0) {
       projectsList = projects.map(project => {
         return (
-          <div id={'project-' + project.id} key={project.id}>
+          <div id={'project-' + project.id} key={`project-${project.id}`}>
             <ProjectCard project={project} />
           </div>
         );
@@ -31,13 +31,9 @@ class Projects extends Component {
     }
 
     return (
-      <div className="ui main container">
-        <div className="ui stackable two column grid">
-          <div className="column">
-            <h1 className="ui white inverted header">Projects</h1>
-          </div>
-        </div>
-        <div className="ui stackable four column grid">{projectsList}</div>
+      <div className="ui main container" id='projectContainer'>
+        <h1>Projects</h1>
+        <div className="ui stackable two column grid" id='projectList'>{projectsList}</div>
       </div>
     );
   }
