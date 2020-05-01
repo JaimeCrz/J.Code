@@ -3,6 +3,7 @@
 Please visit my live site **[here](https://jcruz.netlify.app/)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7952e124-5941-4ddb-a0e8-93e894a9eb69/deploy-status)](https://app.netlify.com/sites/jcruz/deploys)
+[![Build Status](https://semaphoreci.com/api/v1/jaimecrz/j-code/branches/master/badge.svg)](https://semaphoreci.com/jaimecrz/j-code)
 
 # About me:
 
