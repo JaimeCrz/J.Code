@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
+import FadeIn from 'react-fade-in';
 
 class Projects extends Component {
   state = {
@@ -31,10 +32,12 @@ class Projects extends Component {
     }
 
     return (
-      <div className="ui main container" id='projectContainer'>
-        <h1>Projects</h1>
-        <div className="ui stackable two column grid" id='projectList'>{projectsList}</div>
-      </div>
+      <FadeIn>
+        <div className="ui main container" id='projectContainer'>
+          <h1>Projects</h1>
+          <div className="ui stackable two column grid" id='projectList'>{projectsList}</div>
+        </div>
+      </FadeIn>
     );
   }
 }
