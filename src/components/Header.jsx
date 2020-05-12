@@ -22,16 +22,7 @@ const Header = () => {
             to="/about"
           >
             About
-          </NavLink>
-
-          <NavLink
-            id="skills-tab"
-            className="ui item"
-            activeStyle={{ fontWeight: "bold" }}
-            to="/skills"
-          >
-            Skills
-          </NavLink>
+          </NavLink>         
 
           <NavLink
             id="projects-tab"
@@ -40,6 +31,15 @@ const Header = () => {
             to="/projects"
           >
             Projects
+          </NavLink>
+
+          <NavLink
+            id="jblog-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/jblog"
+          >
+            J.blog
           </NavLink>
 
           <NavLink

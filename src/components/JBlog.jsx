@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Skills = () => {
+const JBlog = () => {
   return (
     <div className="ui center aligned grid">
       <div className="six wide column">
@@ -23,10 +23,9 @@ const Skills = () => {
               <div> Ruby</div>
               <div> Ruby on Rails</div>
               <div> JavaScript</div>
-              <div> HTML</div>
-              <div> CSS</div>
-              <div> Python</div>
-              <div> Django</div>
+              <div> React.js</div>
+              <div> HTML5</div>
+              <div> CSS3</div>
             </div>
           </div>
         </div>
@@ -35,4 +34,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default JBlog;

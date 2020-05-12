@@ -30,9 +30,7 @@ const About = () => {
             <div className="logos_images">
               <a href="https://github.com/JaimeCrz"><img src="./src/images/gitLogo.png"></img></a>
               <a href="https://se.linkedin.com/in/jaime-cruz-hostalot-29b6a932?trk"><img src="./src/images/linkedin.png"></img></a>
-              <img src="src/images/tLogo.png" ></img>
             </div>
-
           </div>
         </div>
       </div>
