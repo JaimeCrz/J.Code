@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
-      }
+      },
     ]
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
@@ -29,7 +29,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "/"),
     port: 3000,
-    publicPath: "http://localhost:3000/dist/",
+    publicPath: "http://localhost:3000/dist",
     watchContentBase: true,
     historyApiFallback: true
   },
@@ -44,5 +44,7 @@ module.exports = {
       })
     ]
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()]
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ]
 };

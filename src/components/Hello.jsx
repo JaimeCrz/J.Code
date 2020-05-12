@@ -3,7 +3,6 @@ import React from "react";
 const Hello = () => {
   return (
     <div className="ui main container">
-
       <div className="sp-container">
         <div className="sp-content">
           <div className="sp-globe"></div>

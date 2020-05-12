@@ -1,9 +1,7 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import Hello from "./components/Hello";
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import JBlog  from "./components/JBlog";
 import Projects from "./components/Projects";
@@ -29,7 +27,6 @@ const App = () => {
           <Route exact path="/jblog" component={JBlog}></Route>
           <Route exact path="/contact" component={Contact}></Route>
         </Switch>
-        {/* <Footer /> */}
       </div>
     </>
   );
