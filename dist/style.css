@@ -12,6 +12,17 @@ footer {
   z-index: 100;
 }
 
+ul li {
+  display: inline-block;
+  background-color: #202022;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  text-transform: lowercase;
+}
+
 h1 {
   text-align: center;
 }

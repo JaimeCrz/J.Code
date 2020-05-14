@@ -13,24 +13,27 @@ describe('User can see information in my About page.', () => {
 
   it('Displays Tools & Technologies', () => {
     cy.get('#ListLanguages').within(() => {
-      cy.get('').should('contain', 'Library App');
-      cy.get('').should('contain', 'Library application based on ruby');
+      cy.get('li').should('contain', 'Html5');
+      cy.get('li').should('contain', 'Css');
+      cy.get('li').should('contain', 'JavaScript');
+      cy.get('li').should('contain', 'Ruby');
     })
     cy.get('#ListFrameworks').within(() => {
-      cy.get('').should('contain', 'Library App');
-      cy.get('').should('contain', 'Library application based on ruby');
+      cy.get('li').should('contain', 'React.js');
+      cy.get('li').should('contain', 'Ruby on Rails');
+      cy.get('li').should('contain', 'Node.js');
     })
   });
 
   it('Can click on GitHub logo', () => {
     cy.get('#logos_images').within(() => {
-      cy.get('GitHubLogo').click();
+      cy.get('#GitHubLogo').click();
     })
   });
 
   it('Can click on Linkedin Logo', () => {
     cy.get('#logos_images').within(() => {
-      cy.get('LinkedinLogo').click();
+      cy.get('#LinkedinLogo').click();
     })
   });
 });

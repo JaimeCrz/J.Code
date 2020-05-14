@@ -20,12 +20,16 @@ const About = () => {
          <h2 id="AboutTools"> Tools & Technologies</h2>
          <h3 id="AboutLanguages"> Languages:</h3>
          <ul id="ListLanguages">
-           <li></li>
+           <li>Html5</li>
+           <li>Css</li>
+           <li>JavaScript</li>
+           <li>Ruby</li>
          </ul>
          <h3 id="AboutFrameworks"> Frameworks:</h3>
          <ul id="ListFrameworks">
-           <li>react.js</li>
-           <li>react.js</li>
+           <li>React.js</li>
+           <li>Ruby on Rails</li>
+           <li>Node.js</li>
          </ul>
           <h1 id="AboutFindMe"> Find me on:</h1>
           <div id="logos_images" className="ui center aligned container">
