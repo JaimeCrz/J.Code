@@ -12,9 +12,22 @@ footer {
   z-index: 100;
 }
 
+.ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui) {
+  background: 0 0;
+  color: antiquewhite;
+}
+
+.ui.inverted.menu {
+  border: 0 solid transparent;
+  color: #000;
+  background: #2a2a2a;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 ul li {
   display: inline-block;
-  background-color: #202022;
+  background-color: #2a2a2a;
   font-size: 14px;
   border-radius: 6px;
   padding: 4px 10px;

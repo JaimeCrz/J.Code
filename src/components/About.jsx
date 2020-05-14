@@ -31,7 +31,7 @@ const About = () => {
            <li>Ruby on Rails</li>
            <li>Node.js</li>
          </ul>
-          <h1 id="AboutFindMe"> Find me on:</h1>
+          <h1 id="AboutFindMe"> Find me at:</h1>
           <div id="logos_images" className="ui center aligned container">
             <a id="GitHubLogo" className="image-logo" href="https://github.com/JaimeCrz"><img src="./src/images/gitLogo.png"></img></a>
             <a id="LinkedinLogo" className="image-logo" href="https://se.linkedin.com/in/jaime-cruz-hostalot-29b6a932?trk"> <img src="./src/images/linkedin.png"></img></a>

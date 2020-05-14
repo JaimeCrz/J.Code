@@ -24,16 +24,6 @@ describe('User can navigate the app', () => {
       cy.get('#hello').should('not.exist');
     });
   });
-
-  describe('to skills tab and it', () => {
-    beforeEach(() => {
-      cy.get('#skills-tab').click();
-    });
-
-    it('displays Skills header', () => {
-      cy.contains('Skills');
-    });
-  });
 });
 
 describe('to Projects tab and it', () => {
