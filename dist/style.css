@@ -30,9 +30,10 @@ ul li {
   background-color: #2a2a2a;
   font-size: 14px;
   border-radius: 6px;
-  padding: 4px 10px;
+  padding: 4px 15px;
   margin-right: 4px;
   margin-bottom: 4px;
+
   text-transform: lowercase;
 }
 
@@ -42,13 +43,18 @@ h1 {
 
 p {
   text-align: center;
-  color: antiquewhite;
+  color: #faebd7;
   font-size: large;
   line-height: 200%;
 }
 
 .image-logo {
+  color: #2a2a2a;
   margin: 5px;
+}
+
+#AboutContent {
+  text-align: center;
 }
 
 #t-cards {
@@ -78,8 +84,8 @@ p {
 }
 
 img {
-  height: 90px;
-  width: 90px;
+  height: 50px;
+  width: 50px;
 }
 
 body {
