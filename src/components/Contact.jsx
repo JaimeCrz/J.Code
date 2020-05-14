@@ -10,10 +10,10 @@ const Contact = () => {
           <h1> Contact me</h1>
           <p>  I'm interested in freelance opportunities, especially for ambitious large projects.
           However, if you have other requests or questions,
-          don't hesitate to contact me using the form below.
+          don't hesitate to contact me.
+          <p><a href="mailto:info@jaimecruz.dev">Email</a></p>
         </p>
         </div>
-        
       </div>
     </FadeIn>
   );
