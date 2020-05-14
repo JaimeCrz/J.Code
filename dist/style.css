@@ -12,14 +12,50 @@ footer {
   z-index: 100;
 }
 
+.ui.inverted.menu .item,
+.ui.inverted.menu .item > a:not(.ui) {
+  background: 0 0;
+  color: antiquewhite;
+}
+
+.ui.inverted.menu {
+  border: 0 solid transparent;
+  color: #000;
+  background: #2a2a2a;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+ul li {
+  display: inline-block;
+  background-color: #2a2a2a;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 4px 15px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+
+  text-transform: lowercase;
+}
+
 h1 {
   text-align: center;
 }
 
 p {
   text-align: center;
-  color: antiquewhite;
+  color: #faebd7;
   font-size: large;
+  line-height: 200%;
+}
+
+.image-logo {
+  color: #2a2a2a;
+  margin: 5px;
+}
+
+#AboutContent {
+  text-align: center;
 }
 
 #t-cards {
@@ -45,12 +81,12 @@ p {
   border: 0px;
   margin-top: 30px;
   margin-left: 10px;
-  background-color: #141414; 
+  background-color: #141414;
 }
 
 img {
-  height: 90px;
-  width: 90px;
+  height: 50px;
+  width: 50px;
 }
 
 body {
@@ -61,13 +97,11 @@ body {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 100;
-  overflow: scroll;
   animation: bg 30s linear infinite;
 }
 
 @media (max-width: 800px) {
   p {
-    
     color: antiquewhite;
     font-size: medium;
   }
@@ -301,8 +335,7 @@ p.demos {
   -moz-animation: none;
   -ms-animation: none;
   animation: none;
-  margin-top: -150px;
-  margin-left: -435px;
+  margin-top: -10%;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
@@ -350,7 +383,6 @@ p.demos {
   -ms-animation-delay: 3s;
   animation-delay: 3s;
 }
-
 
 @media (max-width: 1144px) {
   .sp-content {

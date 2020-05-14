@@ -1,11 +1,9 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import Hello from "./components/Hello";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Skills from "./components/Skills";
+import JBlog from "./components/JBlog";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
@@ -25,11 +23,10 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Hello}></Route>
           <Route exact path="/about" component={About}></Route>
-          <Route exact path="/contact" component={Contact}></Route>
           <Route exact path="/projects" component={Projects}></Route>
-          <Route exact path="/skills" component={Skills}></Route>
+          <Route exact path="/jblog" component={JBlog}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
         </Switch>
-        <Footer />
       </div>
     </>
   );
