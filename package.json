@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": "git@github.com:JaimeCrz/J.Code.git",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "google-map-react": "^1.1.6",
     "google-maps-react": "^2.0.2",
     "js-yaml": "^3.13.1",
